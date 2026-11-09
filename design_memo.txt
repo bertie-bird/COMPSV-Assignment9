@@ -1,0 +1,25 @@
+Why is a graph the right structure to represent a social network?
+
+A graph is referred to as a network data structure and this type is used
+to show the relationships between values where they can be connected to more
+than one value. These structures are typically considered complex and
+multi-directional. Graphs are best for social networks because people can
+connect to others who can also be connected to a whole other scope
+of people which can create many interconnected relationships making it to be
+the best structure.
+
+Why wouldn’t a list or tree work as well for this?
+
+Many times graphs are untilized when connecting data in a non-linear structrue.
+Lists don't allow for an edge to occur between multiple different nodes.
+Trees wouldn't work as well either because it requires a form of hierarchy with
+one root that has branches moving downward. In the instance where a graph is better
+suited there isn't a considered "top value" to begin the tree.
+
+What performance or structural trade-offs did you notice when adding friends or printing the network?
+
+I did notice that it was a very simple process of adding friends into the graph because
+each person has their own list of connections created. The flip side is when checking for already
+existing friendships requires you to search through the list which can take a lot of time as the
+network grows. Another thing to mention is when printing the metworks it's easy to check each persons
+name on the list however, this can again make things run slower the larger the network becomes.
